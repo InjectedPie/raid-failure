@@ -1,8 +1,6 @@
 raid-failure
 ============
 
-https://lxohi.github.io/raid-failure/
-
 RAID failure chance calculator.
 This is a basic web based calculator to determine the chance of a URE failure during a RAID 5 or RAID 6 rebuild.
 
