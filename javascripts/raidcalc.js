@@ -18,7 +18,7 @@ function calculateRaidFailureChance(type, diskCount, disksizeGB, ure){
 		return calculateRaid5FailureChance(diskCount, disksizeGB, successChance);
 	}else if(type == "RAID 6 / RAID-Z2"){
 		return calculateRaid6FailureChance(diskCount, disksizeGB, successChance);
-	}else if(type == "RAID 7 / RAID-Z3"){
+	}else if(type == "RAID-Z3"){
 		return calculateRaid7FailureChance(diskCount, disksizeGB, successChance);
 	}
 }
